@@ -1,9 +1,9 @@
-import { Button } from "@heroui/react";
+import { AppRouter } from "./providers/router";
 
 function App() {
   return (
     <>
-      <Button>button</Button>
+      <AppRouter />
     </>
   );
 }
