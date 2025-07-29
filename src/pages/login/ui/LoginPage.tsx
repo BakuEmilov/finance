@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (
     <div className="h-screen flex justify-center items-center">
-      <div className="w-full flex flex-col gap-6 px-10">
+      <div className="w-full md:w-[400px] flex flex-col gap-6 px-10">
         <h1 className="text-3xl font-bold text-[#4E4F50]">Sign in</h1>
 
         <form className="flex flex-col gap-4">
