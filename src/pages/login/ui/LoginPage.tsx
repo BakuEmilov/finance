@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (
     <div className="h-screen flex justify-center items-center">
-      <div className="w-[300px] flex flex-col gap-6">
-        <h1 className="text-3xl font-bold text-gray-700">Sign in</h1>
+      <div className="w-full flex flex-col gap-6 px-10">
+        <h1 className="text-3xl font-bold text-[#4E4F50]">Sign in</h1>
 
         <form className="flex flex-col gap-4">
           <Input name="email" size="sm" label="Email" type="email" />
@@ -18,7 +18,7 @@ const LoginPage = () => {
 
         <p className="text-sm">
           New User?{" "}
-          <Link to={RoutesPath.register} className="text-blue-500">
+          <Link to={RoutesPath.register} className="text-[#647C90]">
             Sign up
           </Link>
         </p>
