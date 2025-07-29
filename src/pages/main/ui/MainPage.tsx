@@ -1,4 +1,5 @@
 import { ExpenseIncomeToggle } from "@/widgets/expense-income-toggle";
+import { FinanceSummaryChart } from "@/widgets/finance-summary-chart";
 import { PeriodFilter } from "@/widgets/period-filter";
 
 const MainPage = () => {
@@ -7,6 +8,8 @@ const MainPage = () => {
       <ExpenseIncomeToggle />
 
       <PeriodFilter />
+
+      <FinanceSummaryChart />
     </>
   );
 };
